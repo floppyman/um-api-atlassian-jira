@@ -1,6 +1,6 @@
-github.com/phuslu/log v1.0.113 h1:Koq5A+8ourLX4vhkhW4HCJjo+jEtzMDhqvUUid/5m24=
-github.com/phuslu/log v1.0.113/go.mod h1:F8osGJADo5qLK/0F88djWwdyoZZ9xDJQL1HYRHFEkS0=
+github.com/floppyman/um-common v1.1.17 h1:MDeLM0IOfPkmvRQOtAhiXsjgzKRw5HNaPdiuyIz7xbM=
+github.com/floppyman/um-common v1.1.17/go.mod h1:EPDBF+d+hQ1Q19xAeNp5ruPjcgKLftF8SiIdskbBzc8=
+github.com/phuslu/log v1.0.117 h1:kyvRlP4ReYWEzmYKsHUNMeYGvmXDTdN3uA0xrNssZ54=
+github.com/phuslu/log v1.0.117/go.mod h1:F8osGJADo5qLK/0F88djWwdyoZZ9xDJQL1HYRHFEkS0=
 github.com/robfig/cron/v3 v3.0.1 h1:WdRxkvbJztn8LMz/QEvLN5sBU+xKpSqwwUO1Pjr4qDs=
 github.com/robfig/cron/v3 v3.0.1/go.mod h1:eQICP3HwyT7UooqI/z+Ov+PtYAWygg1TEWWzGIFLtro=
-github.com/umbrella-sh/um-common v1.0.0 h1:Fs0MS+mnWZyEeiMP/r56fIGa+QbxF3/Pkr/yS+dETDM=
-github.com/umbrella-sh/um-common v1.0.0/go.mod h1:ZGfqlUxmTwM8j61r7YsouQxuWkzaMegOi0qOyUStTtI=
