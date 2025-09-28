@@ -1,6 +1,12 @@
 github.com/floppyman/um-common v1.1.17 h1:MDeLM0IOfPkmvRQOtAhiXsjgzKRw5HNaPdiuyIz7xbM=
 github.com/floppyman/um-common v1.1.17/go.mod h1:EPDBF+d+hQ1Q19xAeNp5ruPjcgKLftF8SiIdskbBzc8=
+github.com/floppyman/um-common v1.2.8 h1:S9lS+fmc6Ev/oDm+grautNnw6BrSERnX+4FoTKKcIhw=
+github.com/floppyman/um-common v1.2.8/go.mod h1:bhkScdqd7meA/wEMhg3QZKca3vn9t03rKY89rS5ak0o=
+github.com/floppyman/um-common v1.2.10 h1:ENqYPk2o629qWhEiwo0RvH2EOY0mltaRGkq+k7LCEHs=
+github.com/floppyman/um-common v1.2.10/go.mod h1:gSqOgEnqAnZOqlRj0p6QMWgxVqY71AHRxJ8HLy+dZiY=
 github.com/phuslu/log v1.0.117 h1:kyvRlP4ReYWEzmYKsHUNMeYGvmXDTdN3uA0xrNssZ54=
 github.com/phuslu/log v1.0.117/go.mod h1:F8osGJADo5qLK/0F88djWwdyoZZ9xDJQL1HYRHFEkS0=
+github.com/phuslu/log v1.0.120 h1:ok+KEfGEz4RM9iyiJ5NhMa0KspywxT55EkpIL2YOzzo=
+github.com/phuslu/log v1.0.120/go.mod h1:F8osGJADo5qLK/0F88djWwdyoZZ9xDJQL1HYRHFEkS0=
 github.com/robfig/cron/v3 v3.0.1 h1:WdRxkvbJztn8LMz/QEvLN5sBU+xKpSqwwUO1Pjr4qDs=
 github.com/robfig/cron/v3 v3.0.1/go.mod h1:eQICP3HwyT7UooqI/z+Ov+PtYAWygg1TEWWzGIFLtro=

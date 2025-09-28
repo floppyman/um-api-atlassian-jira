@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 	
-	"github.com/floppyman/um-common/logging/ulog"
+	"github.com/floppyman/um-common/logging/logr"
 )
 
 // GetWorkLogIds calls the JIRA API (HTTP/HTTPS) with a unix timestamp.
@@ -87,7 +87,7 @@ func AddWorklog(issueIdOrKey string, startTime time.Time, timeSpent int32, comme
 	}
 	
 	if doLogging {
-		ulog.Console.Trace().Msg(string(jsonArr))
+		logr.Console.Trace().Msg(string(jsonArr))
 	}
 	
 	jsonErr := json.Unmarshal(jsonArr, &jsonObj)

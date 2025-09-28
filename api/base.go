@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 	
-	"github.com/floppyman/um-common/logging/ulog"
+	"github.com/floppyman/um-common/logging/logr"
 )
 
 var doLogging = false
@@ -35,7 +35,7 @@ func doGetRequest(urlPath string) ([]byte, error) {
 	url := jiraUrl + urlPath
 	//goland:noinspection GoBoolExpressions
 	if doLogging {
-		ulog.Console.Trace().Msg(url)
+		logr.Console.Trace().Msg(url)
 	}
 	
 	req, err := http.NewRequest(http.MethodGet, url, nil)
@@ -68,8 +68,8 @@ func doPostRequest(urlPath string, body []byte) ([]byte, error) {
 	url := jiraUrl + urlPath
 	//goland:noinspection GoBoolExpressions
 	if doLogging {
-		ulog.Console.Trace().Msg(url)
-		ulog.Console.Trace().Msg(string(body))
+		logr.Console.Trace().Msg(url)
+		logr.Console.Trace().Msg(string(body))
 	}
 	
 	req, err := http.NewRequest(http.MethodPost, url, bytes.NewBuffer(body))
